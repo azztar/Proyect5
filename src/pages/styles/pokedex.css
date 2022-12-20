@@ -1,0 +1,112 @@
+.header {
+    background-image: url(../../../public/Home/pokedex.png);
+background-repeat: no-repeat;
+background-size: 350px;
+}
+.pagination__container {
+    width: 100%;
+    max-width: 600px;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.poke_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: .5em;
+    margin-bottom: 0.5em;
+}
+
+
+.pokedex__form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokedex__title {
+    line-height: 29px;
+    padding: 0;
+    margin: 20px;
+}
+
+.pokedex__input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #FE1936;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1em;
+    outline: none;
+}
+
+.pokedex_button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #d93f3f;
+}
+
+.pokedex__select {
+    width: 40%;
+    height: 40px;
+    border: 1px solid #FE1936;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1em;
+    outline: none;
+    margin-left: 30px;
+}
+.pokedex__request {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+
+    .poke_container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 2em;
+    }
+    .pokedex__request {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pokedex__input {
+        width: 50%;
+        height: 40px;
+        border: 1px solid #FE1936;
+        border-radius: 5px;
+        padding: 0 10px;
+        font-size: 1em;
+        outline: none;
+    }
+    .pokedex__select {
+        width: 40%;
+        height: 40px;
+        border: 1px solid #FE1936;
+        border-radius: 5px;
+        padding: 0 10px;
+        font-size: 1em;
+        outline: none;
+        margin-right:150px ;
+    }
+
+}
